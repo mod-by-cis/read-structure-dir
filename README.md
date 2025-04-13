@@ -1,4 +1,5 @@
-# read-structure-dir
+# read-structure-dir 
+- `🆕v0.1.1` -> `📦https://raw.githubusercontent.com/mod-by-cis/read-structure-dir/refs/tags/v0.1.1/mod.ts`
 
 ## 📦HOW INSTALL
 
