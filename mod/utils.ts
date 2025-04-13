@@ -1,6 +1,6 @@
-import type {PathsStructure } from "./types.ts";
+import type { TreePaths } from "./types.ts";
 
-export function pathsStructureITER(map: PathsStructure, addToStructurePLOT: (txt: string) => void, level: number = 0): void {
+export function pathsStructureITER(map: TreePaths, addToStructurePLOT: (txt: string) => void, level: number = 0): void {
   if (map.size !== 0) {
     for (const [key, val] of map) {
       // Dodajemy nazwę folderu, uwzględniając wcięcie tylko jeśli folder ma podfoldery

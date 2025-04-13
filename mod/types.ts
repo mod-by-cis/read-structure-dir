@@ -16,9 +16,9 @@ export interface Paths {
   };
 }
 
-export interface PathsStructureNESTED {
-  dirs: PathsStructure;
+export interface TreePathsNESTED {
+  dirs: TreePaths;
   file: string[];
 }
 
-export type PathsStructure = Map<string, PathsStructureNESTED>;
+export type TreePaths = Map<string, TreePathsNESTED>;

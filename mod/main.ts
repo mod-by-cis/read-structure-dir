@@ -1,6 +1,6 @@
 import { normalize } from "jsr:@std/path@1.0.8";
 import { walk } from "jsr:@std/fs@1.0.16/walk";
-import type { StructurePathsOptions, Paths, PathsStructure, PathsStructureNESTED } from "./types.ts";
+import type { StructurePathsOptions, Paths, TreePaths, TreePathsNESTED } from "./types.ts";
 import { pathsStructureITER } from "./utils.ts";
 
 
@@ -57,20 +57,20 @@ export class StructurePaths {
     this.paths = elements;
   }
 
-  get TREE(): PathsStructure {
+  get TREE(): TreePaths {
     const paths = this.paths;
     const root = paths.find((p) => p.root);
     if (!root) throw new Error("Brak katalogu głównego");
 
-    const result: PathsStructure = new Map();
+    const result: TreePaths = new Map();
 
-    const rootData: PathsStructureNESTED = {
+    const rootData: TreePathsNESTED = {
       dirs: new Map(),
       file: [],
     };
 
     const insert = (
-      map: PathsStructure,
+      map: TreePaths,
       path: string[],
       name: string,
       isFile: boolean,
