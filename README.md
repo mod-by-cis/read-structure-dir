@@ -1,6 +1,6 @@
 # read-structure-dir
 
-## HOW INSTALL
+## 📦HOW INSTALL
 
 1. add import in **`deno.json`**
 
@@ -22,7 +22,7 @@ import {
 
 ```
 
-## HOW USED
+## 🧠 HOW USED
 
 ```ts
 const AA: StructurePathsOptions = {
@@ -38,3 +38,7 @@ A.logPLOT();
 ```
 
 ---
+
+## ⚠️ KNOWN ISSUES 
+### IN VERSION `v0.1.1`
+- [🔴 WRONGLY PLOTS STRUCTURE](https://github.com/mod-by-cis/read-structure-dir/issues/1)
