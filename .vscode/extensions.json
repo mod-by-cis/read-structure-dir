@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "denoland.vscode-deno",
+    "bradlc.vscode-tailwindcss",
+    "tobermory.es6-string-html",
+    "bierner.lit-html"
+  ]
+}

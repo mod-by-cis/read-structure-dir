@@ -1,0 +1,206 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.formatOnSave": false
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.formatOnSave": false
+  },
+  "breadcrumbs.enabled": true,
+  "cSpell.dictionaries": [
+    "typescript",
+    "deno",
+    "powershell",
+    "markdown",
+    "html",
+    "css",
+    "xml"
+  ],
+  "cSpell.language": "en, pl",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "deno.cacheOnSave": true,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
+  "deno.enable": true,
+  "deno.enablePaths": [
+    "./"
+  ],
+  "deno.lint": true,
+  "deno.trace.server": "verbose",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.guides.indentation": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.linkedEditing": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.rulers": [
+    46,
+    92,
+    138,
+    184
+  ],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 185,
+  "files.associations": {
+    ".env*": "dotenv",
+    ".gramps": "xml",
+    "*.tsx": "typescriptreact"
+  },
+  "files.exclude": {
+    "**/deno.lock": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.readonlyInclude": {
+    "**/.git/**": true,
+    "**/.history/**": true
+  },
+  "javascript.validate.enable": false,
+  "notebook.variablesView": true,
+  "powershell.buttons.showPanelMovementButtons": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/.history": true,
+    "**/.unotes": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "terminal.integrated.fontSize": 12,
+  "typescript.tsdk": "%APPDATA%\\npm\\node_modules\\typescript\\lib",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "typescript.validate.enable": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#6b0b18",
+    "activityBar.background": "#130e0f",
+    "activityBar.border": "#272324",
+    "activityBar.foreground": "#110305",
+    "activityBar.inactiveForeground": "#bbb5b6",
+    "activityBarBadge.background": "#6b0b18",
+    "activityBarBadge.foreground": "#ebbec5",
+    "breadcrumb.background": "#0e0d0d",
+    "button.background": "#490f17",
+    "button.hoverBackground": "#6b0b18",
+    "dropdown.background": "#2b191b",
+    "dropdown.border": "#272324",
+    "dropdown.listBackground": "#2B191B",
+
+    "editorGroupHeader.tabsBackground": "#130e0f",
+    "editorGutter.background": "#0e0d0d",
+    "editorHoverWidget.background": "#3b2b2d",
+    "editorStickyScrollHover.background": "#6b0b18",
+    "editorSuggestWidget.background": "#181011",
+    "editorSuggestWidget.focusHighlightForeground": "#181011",
+    "editorSuggestWidget.foreground": "#ebe5e5",
+    "editorSuggestWidget.highlightForeground": "#8f4c54",
+    "editorSuggestWidget.selectedBackground": "#81212c",
+    "editorSuggestWidget.selectedForeground": "#e6ced1",
+    "editorSuggestWidget.selectedIconForeground": "#130406",
+    "editorWidget.background": "#490f17",
+    "focusBorder": "#6b0b18",
+    "input.background": "#1a1a1a",
+    "input.border": "#29080c",
+    "input.placeholderForeground": "#dd4c5d",
+    "inputOption.activeBackground": "#3f1f23",
+    "inputOption.activeBorder": "#361519",
+    "inputOption.activeForeground": "#daacb1",
+    "inputOption.hoverBackground": "#6b0b18",
+    "list.activeSelectionBackground": "#6b0b18",
+    "list.hoverBackground": "#6b0b18",
+    "list.inactiveSelectionBackground": "#3d2a2d",
+    "menu.background": "#6b0b18",
+    "menu.selectionBackground": "#220a0d",
+    "menubar.selectionBackground": "#6b0b18",
+    "notebook.background": "#FFFFFF",
+    "outputViewStickyScroll.background": "#490f17",
+    "panel.background": "#1a1717",
+    "panel.border": "#272324",
+    "panelSectionHeader.background": "#272324",
+    "panelTitle.activeForeground": "#eb677b",
+    "panelTitle.inactiveForeground": "#6e5358",
+    "sideBar.background": "#0e0d0d",
+    "sideBarSectionHeader.background": "#181011",
+    "sideBarSectionHeader.border": "#3d2a2d",
+    "statusBar.background": "#130e0f",
+    "statusBarItem.remoteBackground": "#4d0c14",
+    "tab.activeBackground": "#0e0d0d",
+    "tab.activeBorderTop": "#a89799",
+    "tab.activeModifiedBorder": "#6b0b18",
+    "tab.border": "#272122",
+    "tab.hoverBackground": "#6b0b18",
+    "tab.hoverBorder": "#6b0b18",
+    "tab.inactiveBackground": "#1a1717",
+    "tab.inactiveModifiedBorder": "#6b0b18",
+    "terminal.selectionBackground": "#db223b46",
+    "titleBar.activeBackground": "#130e0f"
+  },
+  "workbench.commandPalette.experimental.askChatLocation": "chatView",
+  "workbench.editor.defaultBinaryEditor": "jupyter-notebook",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.preferHistoryBasedLanguageDetection": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.defaultLocation": "top",
+  "workbench.preferredLightColorTheme": "Dracula Theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.tree.enableStickyScroll": true,
+  "xml.symbols.maxItemsComputed": 999999,
+  "cSpell.words": [
+    "asynciterable",
+    "frontendowe",
+    "Hono",
+    "pgsql"
+  ],
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["tw`([^`]*)", 1],
+    ["tw=\"([^\"]*)", 1],
+    ["tw={\"([^\"}]*)", 1]
+  ],
+  "es6-string-html.tags": [
+    "htmlFragment",
+  "html",
+  "svg",
+  "xml",
+  "htmlFragment"
+]
+  
+}
