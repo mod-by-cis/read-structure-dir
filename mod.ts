@@ -2,7 +2,7 @@ export {
   pathsGET,
   pathsStructurePLOT,
   pathsStructureSAVE,
-  pathsStructureTREE
+  pathsStructureVIEW
 } from "./mod/main.ts";
 
 export type { 
