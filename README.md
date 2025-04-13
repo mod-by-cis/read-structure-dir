@@ -3,7 +3,7 @@
 
 ## 📦HOW INSTALL
 
-1. add import in **`deno.json`**
+1. 🅰️ or add import in **`deno.json`**
 
 ```json
     {
@@ -13,7 +13,7 @@
     }
 ```
 
-2. or add import in **any `*.ts` files**
+2. 🅱️ or add import in **any `*.ts` files**
 
 ```ts
 import {
