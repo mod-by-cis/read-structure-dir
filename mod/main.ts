@@ -133,7 +133,8 @@ export class StructurePaths {
   
   logTREE(): void {
     const tree = this.TREE;
-    console.log(tree);
+    console.dir(tree, { depth: null, colors: true });
+    // // console.log(Deno.inspect(tree, { depth: Infinity, colors: true }));
   }
   
   logPLOT(): void {

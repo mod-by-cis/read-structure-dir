@@ -1,6 +1,6 @@
 {
   "name": "@mod-by-cis/read-structure-dir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": "./mod.ts",  
   "license": "Mozilla Public License Version 2.0",  
   "tasks": {

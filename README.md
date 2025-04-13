@@ -7,7 +7,7 @@
 ```json
     {
         "imports": {
-            "@mod-by-cis/read-structure-dir": "https://raw.githubusercontent.com/mod-by-cis/read-structure-dir/refs/tags/v0.1.0/mod.ts"
+            "@mod-by-cis/read-structure-dir": "https://raw.githubusercontent.com/mod-by-cis/read-structure-dir/refs/tags/v0.1.1/mod.ts"
         }
     }
 ```
@@ -18,7 +18,7 @@
 import {
   StructurePaths,
   type StructurePathsOptions,
-} from "https://raw.githubusercontent.com/mod-by-cis/read-structure-dir/refs/tags/v0.1.0/mod.ts";
+} from "https://raw.githubusercontent.com/mod-by-cis/read-structure-dir/refs/tags/v0.1.1/mod.ts";
 
 ```
 
