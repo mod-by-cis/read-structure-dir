@@ -41,7 +41,7 @@ export async function pathsGET(): Promise<Paths[]> {
   return elements;
 }
 
-export function pathsStructureTREE(paths: Paths[]): PathsStructure {
+export function pathsStructureVIEW(paths: Paths[]): PathsStructure {
   const root = paths.find((p) => p.root);
   if (!root) throw new Error("Brak katalogu głównego");
 
@@ -111,7 +111,7 @@ export function pathsStructureTREE(paths: Paths[]): PathsStructure {
 }
 
 export function pathsStructurePLOT(paths: Paths[]): string {
-  const tree: PathsStructure = pathsStructureTREE(paths);
+  const tree: PathsStructure = pathsStructureVIEW(paths);
   let structure = "";
 
   pathsStructureITER(
