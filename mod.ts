@@ -1,12 +1,2 @@
-export {
-  pathsGET,
-  pathsStructurePLOT,
-  pathsStructureSAVE,
-  pathsStructureVIEW
-} from "./mod/main.ts";
-
-export type { 
-  Paths, 
-  PathsStructure, 
-  PathsStructureNESTED 
-} from "./mod/types.ts";
+export * from "./mod/main.ts";
+export type * from "./mod/types.ts";

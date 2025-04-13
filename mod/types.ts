@@ -1,4 +1,7 @@
-//export type { WalkEntry, WalkOptions } from "jsr:@std/fs@1.0.16/walk";
+export type { 
+  // WalkEntry, 
+  WalkOptions as StructurePathsOptions
+} from "jsr:@std/fs@1.0.16/walk";
 
 export interface Paths {
   index: number;
